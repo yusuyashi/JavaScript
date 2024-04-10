@@ -1,9 +1,14 @@
+//メイン部分
+let alertString;
 
-let i;
-let num = 0;
+//作成した関数を呼び出し、変数へ格納
+alertString = addStiring("WebCamp");
 
-for(i = 1; i < 11; i++){
-  num = num + i;
+//変数の中身をアラートで表示する
+alert(alertString);
+
+//作成した関数
+function addStiring(strA){
+    let addStr = "Hello" + strA;
+    return addStr;
 }
-
-alert('1から10まで足し算した結果は' + num + 'です');
