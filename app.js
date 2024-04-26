@@ -1,7 +1,6 @@
-$(document).ready(function () {
-  //jQueryのプログラム内容
-  $('body').html('<h1>Hello jQuery!!</h1>');
-  //$(セレクタ).メソッド（パラメータ）;
+$(function(){
+  $('.box1').hide();
 });
-
-
+//$('セレクタ').css({
+  //'プロパティ1: '値1',
+//});
